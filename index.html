@@ -3,44 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Питомник Мейн-Кунов</title>
+	  <meta name="description" content="Питомник Мейн-Кунов в Новосибирске. Первый питомник с расширенным спектром услуг">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Питомник Мейн Кунов</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
 	<header class="main-header">
 		<a href="#">
-			<img src="" class="main-header-logo" width="59" height="59" alt="Логотип Питомника Мейн-Кунов">
+			<img src="img/crown.svg" class="main-header-logo" width="59" height="59" alt="Логотип Питомника Мейн-Кунов">
 		</a>
 		<div class="header-content">
 			<p class="header-city">Новосибирск</p>
-			<p class="header-title">Питомник Мейн-Кунов</p>
+			<h1 class="header-title">Питомник<br> Мейн-Кунов</h1>
 			<p class="header-description">Первый питомник с расширенным спектром услуг</p>
-			<a class="header-button button">Смотреть котиков</a>
+			<a href=# class="header-button button">Смотреть котиков</a>
 		</div>
-		<ul class="header-socials">
-			<li class="social-vk">Вконтакте</li>
-			<li class="social-twitter">Твиттер</li>
-			<li class="social-fb">Фейсбук</li>
+		<ul class="header-socials socials">
+			<li class="social-vk"><a href="#">Вконтакте</a></li>
+			<li class="social-twitter"><a href="#">Твиттер</a></li>
+			<li class="social-fb"><a href="#">Фейсбук</a></li>
 		</ul>
 	</header>
+
 	<main class="main-content">
-		<h1 class="visually-hidden">Питомник Мейн-Кунов</h1>
+
 		<section class="pets">
 			<h2>Питомцы</h2>
 			<p class="pets-description">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
 			<ul class="pets-list">
-				<li class="pets-item">Коты</li>
-				<li class="pets-item">Кошки</li>
-				<li class="pets-item">Котята</li>
+				<li class="pets-item"><a class="pets-tab active" href="#">Коты</a></li>
+				<li class="pets-item"><a class="pets-tab" href="#">Кошки</a></li>
+				<li class="pets-item"><a class="pets-tab" href="#">Котята</a></li>
 			</ul>
 			<div class="pets-photo">
-				<img src="" alt="Белый кот" width="519" height="214">
-				<img src="" alt="Рыжий кот" width="" height="">
-				<img src="" alt="Серый кот">
+				<img src="img/image%20%281%29.jpg" alt="Белый кот" width="519" height="214">
+				<img src="img/45124420204_6f60a56c73_k.jpg" alt="Рыжий кот" width="519" height="241">
+				<img src="img/image.jpg" alt="Серый кот" width="530" height="530">
 			</div>
 			<a href="#" class="pets-button button">Смотреть больше</a>
 		</section>
+
 		<section class="pets-features">
 			<h2>Особенности породы</h2>
 			<p class="pets-features-description">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, вы получите умное животное, которому нет равных</p>
+			<div class="pets-features-img">
+				<img src="">
+			</div>
 			<ul class="pets-features-list">
 				<li class="pets-features-item">Легко уживается в семьях с детьми или другими животными</li>
 				<li class="pets-features-item">Внешний вид этой кошки похож на дикую рысь</li>
@@ -48,6 +61,7 @@
 				<li class="pets-features-item">Вес может достигать 12 кг, а длина 1 м</li>
 			</ul>
 		</section>
+
 		<section class="nursery-features">
 			<h2>Почему именно мы?</h2>
 			<p class="nursery-features-description">Приобретая животное в нашем питомнике, вы получите</p>
@@ -57,6 +71,7 @@
 				<li class="nursery-features-item">Индивидуальный подбор питания для вашего кота</li>
 			</ul>
 		</section>
+
 		<section class="care">
 			<h2>Об уходе за Мейн-Куном</h2>
 			<ul class="care-list">
@@ -78,6 +93,7 @@
 				</li>
 			</ul>
 		</section>
+
 		<section class="team">
 			<h2>Наша команда</h2>
 			<p class="team-description">Все сотрудники нашего питомника дипломированые специалисты в области фелинологии и ветеринарии</p>
@@ -92,7 +108,49 @@
 				</ul>
 			</div>
 		</section>
+
+		<section class="questions">
+			<h2>Вопрос-Ответ</h2>
+			<p class="questions-description">Мы ответим на самые популярные ваши вопросы</p>
+			<dl class="questions-list">
+				<dt class="questions-item">С какого возраста можно забирать котенка из питомника?</dt>
+				<dd class="questions-item-answer">Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель, максимально защищен от различных вирусов и инфекций. Так что, чтобы в дома появился психически и физически здоровый котенок, игривый, жизнерадостный, самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.</dd>
+				<dt class="questions-item">Как зарезервировать котенка?</dt>
+				<dd class="questions-item-answer visually-hidden"></dd>
+				<dt class="questions-item">Можно ли купить кота, если я живу в другом городе?</dt>
+				<dd class="questions-item-answer visually-hidden"></dd>
+				<dt class="questions-item">Как подготовить дом к приему нового питомца?</dt>
+				<dd class="questions-item-answer visually-hidden"></dd>
+			</dl>
+		</section>
+
+		<section class="reviews">
+			<h2>Отзывы</h2>
+			<div class="reviews-person">
+				<p class="team-person-name">Серёжа Попов</p>
+				<p class="team-person-phrase">Наш питомник занимается разведением Мейн-Кунов на протяжениие 15 лет. Мы в ответе за каждого приобретенного вами питомца</p>
+				<time datetime="2018-05-24">24 мая 2018</time>
+				<ul class="team-person-socials">
+					<li class="team-person-social-item">Твиттер</li>
+					<li class="team-person-social-item">Вконтакте</li>
+				</ul>
+			</div>
+		</section>
+
 	</main>
-	<footer></footer>
+	
+	<footer class="main-footer">
+		<a href="#">
+			<img src="" class="main-footer-logo" width="59" height="59" alt="Логотип Питомника Мейн-Кунов">
+		</a>
+		<ul class="footer-socials socials">
+			<li class="social-vk">Вконтакте</li>
+			<li class="social-twitter">Твиттер</li>
+			<li class="social-fb">Фейсбук</li>
+		</ul>
+		<p class="footer-adress">Новосибирск, Пушкинский проспект, 19</p>
+		<span>+7 (383) 900-64-65</span>
+
+	</footer>
 </body>
 </html>

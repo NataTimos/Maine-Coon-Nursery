@@ -1,0 +1,122 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 23px;
+
+	color: #FFFFFF;
+	background-color: #1F1C1D;
+
+	width: 1366px;
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*голобальный стиль для всех картинок, чтобы не вылезало за родительский блок*/
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*обновленный visually-hidden*/
+.visually-hidden:not(:focus):not(:active)
+{
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    border: 0;
+
+    clip-path: inset(100%);
+}
+
+.main-header {
+	background-color: #181617;
+}
+
+.header-content h1 {
+	font-family: Yeseva One;
+	font-size: 52px;
+	line-height: 60px;
+}
+
+.header-content p {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #A07B50;
+}
+
+button {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.socials {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-content h2 {
+	font-family: Yeseva One;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.main-content h2 + p {
+	color: #A07B50;
+}
+
+.pets-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pets-item .pets-tab {
+	color: rgba(255, 255, 255, 0.2);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.pets-item .active {
+	color: #fff;
+}
+
+.pets-features .pets-features-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.
+
+
+
+
+
+
+
+
