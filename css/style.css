@@ -689,7 +689,8 @@ img
 	width: 660px;
 	margin-left: 146px;
 	background-color: #151313;
-	padding: 109px 87px 107px 145px
+	padding: 109px 87px 107px 145px;
+	margin-bottom: 110px;
 	}
 
 .reviews-person::before {
@@ -763,6 +764,7 @@ color: rgba(160, 123, 80, 0.94);
 	border: 0.5px solid rgba(160, 123, 80, 0.27);;
 
 	padding: 9px 7px ;
+
 }
 
 .vkontakte .reviews-person-social-icon {
@@ -776,4 +778,36 @@ color: rgba(160, 123, 80, 0.94);
 	border: 0.5px solid rgba(160, 123, 80, 0.27);;
 
 	padding: 10px 7px;
+}
+
+.main-footer {
+	background-color: #151313;
+	min-height: 156px;
+	display: flex;
+	align-items: center;
+}
+
+.main-footer img {
+	margin-left: 245px;
+	margin-right: 125px;
+}
+
+.footer-socials {
+	display: flex;
+	margin-right: 153px;
+}
+
+.footer-socials svg {
+	color: #A07B50;
+	margin-right: 9px;
+}
+
+.footer-adress {
+	font-size: 14px;
+	line-height: 27px;
+	/* identical to box height */
+
+
+	color: rgba(253, 242, 230, 0.83);
+	margin-right: 68px;
 }
